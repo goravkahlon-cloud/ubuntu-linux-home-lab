@@ -1,5 +1,5 @@
 # Ubuntu Linux Home Lab
-
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-orange) ![Linux](https://img.shields.io/badge/Linux-System%20Administration-blue) ![Bash](https://img.shields.io/badge/Bash-Scripting-green) ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED) ![SSH](https://img.shields.io/badge/OpenSSH-Remote%20Access-lightgrey) ![VMware](https://img.shields.io/badge/VMware-Workstation-yellow)
 ## Project Overview
 
 This project documents my Linux Home Lab built using Ubuntu Server in VMware Workstation.
@@ -56,49 +56,69 @@ ubuntu-linux-home-lab/
 
 ---
 
-## Bash Scripts
 
-### greeting.sh
-Prompts the user for their name and displays a personalized greeting.
-
-### countdown.sh
-Displays a countdown using a Bash for loop.
-
-### favorite_os.sh
-Uses conditional statements to display different messages based on user input.
-
-### system_info.sh
-Displays:
-- Current user
-- Current working directory
-- Hostname
-
-### linux_checker.sh
-Combines:
-- User input
-- Variables
-- If statements
-- Loops
-- Linux commands
-
----
 
 ## Screenshots
 
-The screenshots folder documents the progression of the lab, including:
+### Ubuntu Installation
 
-- Ubuntu installation
-- First login
-- Terminal navigation
-- File creation
-- Editing files with Nano
-- chmod permissions
-- Tree command usage
-- systemctl service management
-- SSH setup
-- Firewall configuration
-- Docker Hello World
-- Bash scripting examples
+![Ubuntu Installation](screenshots/01_ubuntu_install.png)
+
+---
+
+### First Login
+
+![First Login](screenshots/02_first_login.png)
+
+---
+
+### Terminal Navigation
+
+![Terminal Login](screenshots/03_terminal_login.png)
+
+---
+
+### File Creation
+
+![Create File](screenshots/04_create_file.png)
+
+---
+
+### Editing Files with Nano
+
+![Nano Editor](screenshots/05_edit_file_nano.png)
+
+---
+
+### File Permissions (chmod)
+
+![chmod](screenshots/06_chmod_permissions.png)
+
+---
+
+### Tree Command
+
+![Tree](screenshots/08_tree_directory_structure.png)
+
+---
+
+### SSH Connection
+
+![SSH](screenshots/12_ssh_connection.png)
+
+---
+
+### Firewall Configuration (UFW)
+
+![Firewall](screenshots/14_ufw_enable.png)
+
+---
+
+### Docker Hello World
+
+![Docker](screenshots/15_docker_hello_world.png)
+
+---
 
 ## Bash Scripting
 
@@ -111,15 +131,30 @@ This script combines variables, user input, conditionals, loops, and Linux comma
 
 ### Greeting Script
 
-Prompts the user for their name and prints a personalized greeting.
-
+Uses variables and user input to display a personalized greeting.
 ![Greeting Script](screenshots/18_greeting_output.png)
 
 ### Countdown Script
 
-Uses a Bash for loop to count down before displaying "Blast off!".
-
+Demonstrates Bash for loops by counting down from 5 before displaying "Blast Off!".
 ![Countdown Script](screenshots/19_countdown_output.png)
+
 ## What I Learned
 
-Through this project I gained practical experience with Linux administration, command-line navigation, scripting, SSH connectivity, Docker containers, and troubleshooting common Linux tasks. This project strengthened my understanding of Linux fundamentals commonly used in Help Desk, System Administration, and IT Support roles.
+This Linux Home Lab strengthened my understanding of Linux system administration and command-line tools commonly used in IT support and system administration roles.
+
+Throughout this project I gained experience with:
+
+- Linux command-line navigation
+- File and directory management
+- File permissions using `chmod`
+- Editing files with Nano
+- Bash scripting fundamentals
+- Variables, loops, and conditional statements
+- SSH remote administration
+- UFW firewall configuration
+- Docker installation and container deployment
+- System service management with `systemctl`
+- Troubleshooting common Linux issues
+
+This project gave me practical, hands-on experience working in a Linux environment similar to what is used in many enterprise IT environments.
