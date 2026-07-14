@@ -100,8 +100,26 @@ The screenshots folder documents the progression of the lab, including:
 - Docker Hello World
 - Bash scripting examples
 
----
+## Bash Scripting
 
+### Linux Checker Script
+
+This script combines variables, user input, conditionals, loops, and Linux commands to display system information.
+
+![Linux Checker](screenshots/17_linux_checker_output.png)
+
+
+### Greeting Script
+
+Prompts the user for their name and prints a personalized greeting.
+
+![Greeting Script](screenshots/18_greeting_output.png)
+
+### Countdown Script
+
+Uses a Bash for loop to count down before displaying "Blast off!".
+
+![Countdown Script](screenshots/19_countdown_output.png)
 ## What I Learned
 
 Through this project I gained practical experience with Linux administration, command-line navigation, scripting, SSH connectivity, Docker containers, and troubleshooting common Linux tasks. This project strengthened my understanding of Linux fundamentals commonly used in Help Desk, System Administration, and IT Support roles.
